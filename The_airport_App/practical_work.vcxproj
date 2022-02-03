@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F2C843B4-3F9E-4AB1-BB6C-5686EB2E8C1E}</ProjectGuid>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>practical_work</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <NoEntryPoint>
+      </NoEntryPoint>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="adding_flights.cpp" />
+    <ClCompile Include="administrator_identification.cpp" />
+    <ClCompile Include="admin_menu.cpp" />
+    <ClCompile Include="delete_all_flights.cpp" />
+    <ClCompile Include="delete_a_specific_flight.cpp" />
+    <ClCompile Include="edit_specific_field.cpp" />
+    <ClCompile Include="edit_type_selection.cpp" />
+    <ClCompile Include="flight_input.cpp" />
+    <ClCompile Include="flight_output.cpp" />
+    <ClCompile Include="flight_output_on_request.cpp" />
+    <ClCompile Include="flight_output_on_request_user.cpp" />
+    <ClCompile Include="flight_output_user.cpp" />
+    <ClCompile Include="found_flights.cpp" />
+    <ClCompile Include="functions.cpp" />
+    <ClCompile Include="game_in_the_city.cpp" />
+    <ClCompile Include="user_choice.cpp" />
+    <ClCompile Include="visitor_menu.cpp" />
+    <ClCompile Include="сhange_password.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="adding_flights.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="administrator_identification.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="admin_menu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="delete_all_flights.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="delete_a_specific_flight.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="edit_specific_field.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="edit_type_selection.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="flight_input.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="flight_output.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="flight_output_on_request.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="flight_output_on_request_user.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="flight_output_user.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="found_flights.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="functions.h" />
+    <ClInclude Include="game_in_the_city.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="user_choice.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="visitor_menu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="сhange_password.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="adding_flights.resx">
+      <DependentUpon>adding_flights.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="administrator_identification.resx">
+      <DependentUpon>administrator_identification.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin_menu.resx">
+      <DependentUpon>admin_menu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delete_all_flights.resx">
+      <DependentUpon>delete_all_flights.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delete_a_specific_flight.resx">
+      <DependentUpon>delete_a_specific_flight.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edit_specific_field.resx">
+      <DependentUpon>edit_specific_field.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edit_type_selection.resx">
+      <DependentUpon>edit_type_selection.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="flight_input.resx">
+      <DependentUpon>flight_input.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="flight_output.resx">
+      <DependentUpon>flight_output.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="flight_output_on_request.resx">
+      <DependentUpon>flight_output_on_request.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="flight_output_on_request_user.resx">
+      <DependentUpon>flight_output_on_request_user.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="flight_output_user.resx">
+      <DependentUpon>flight_output_user.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="found_flights.resx">
+      <DependentUpon>found_flights.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="game_in_the_city.resx">
+      <DependentUpon>game_in_the_city.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user_choice.resx">
+      <DependentUpon>user_choice.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="visitor_menu.resx">
+      <DependentUpon>visitor_menu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="сhange_password.resx">
+      <DependentUpon>сhange_password.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cities.txt" />
+    <None Include="flight_schedule.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

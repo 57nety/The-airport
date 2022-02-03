@@ -1,0 +1,59 @@
+﻿Построение начато 16.07.2020 20:11:48.
+     1>Проект "C:\Users\57net\Desktop\practical_work\practical_work\practical_work.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Release\practical_work.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       GenerateTargetFrameworkMonikerAttribute:
+       Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         Для всех выходных данных обновления не требуется.
+       CoreResGen:
+         "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile adding_flights.resx,Release\practical_work.adding_flights.resources administrator_identification.resx,Release\practical_work.administrator_identification.resources admin_menu.resx,Release\practical_work.admin_menu.resources delete_all_flights.resx,Release\practical_work.delete_all_flights.resources delete_a_specific_flight.resx,Release\practical_work.delete_a_specific_flight.resources edit_specific_field.resx,Release\practical_work.edit_specific_field.resources edit_type_selection.resx,Release\practical_work.edit_type_selection.resources flight_input.resx,Release\practical_work.flight_input.resources flight_output.resx,Release\practical_work.flight_output.resources flight_output_on_request.resx,Release\practical_work.flight_output_on_request.resources flight_output_on_request_user.resx,Release\practical_work.flight_output_on_request_user.resources flight_output_user.resx,Release\practical_work.flight_output_user.resources found_flights.resx,Release\practical_work.found_flights.resources game_in_the_city.resx,Release\practical_work.game_in_the_city.resources user_choice.resx,Release\practical_work.user_choice.resources visitor_menu.resx,Release\practical_work.visitor_menu.resources "сhange_password.resx","Release\practical_work.сhange_password.resources"
+         Обрабатывается файл ресурсов "adding_flights.resx", результирующий объект: "Release\practical_work.adding_flights.resources".
+         Обрабатывается файл ресурсов "administrator_identification.resx", результирующий объект: "Release\practical_work.administrator_identification.resources".
+         Обрабатывается файл ресурсов "admin_menu.resx", результирующий объект: "Release\practical_work.admin_menu.resources".
+         Обрабатывается файл ресурсов "delete_all_flights.resx", результирующий объект: "Release\practical_work.delete_all_flights.resources".
+         Обрабатывается файл ресурсов "delete_a_specific_flight.resx", результирующий объект: "Release\practical_work.delete_a_specific_flight.resources".
+         Обрабатывается файл ресурсов "edit_specific_field.resx", результирующий объект: "Release\practical_work.edit_specific_field.resources".
+         Обрабатывается файл ресурсов "edit_type_selection.resx", результирующий объект: "Release\practical_work.edit_type_selection.resources".
+         Обрабатывается файл ресурсов "flight_input.resx", результирующий объект: "Release\practical_work.flight_input.resources".
+         Обрабатывается файл ресурсов "flight_output.resx", результирующий объект: "Release\practical_work.flight_output.resources".
+         Обрабатывается файл ресурсов "flight_output_on_request.resx", результирующий объект: "Release\practical_work.flight_output_on_request.resources".
+         Обрабатывается файл ресурсов "flight_output_on_request_user.resx", результирующий объект: "Release\practical_work.flight_output_on_request_user.resources".
+         Обрабатывается файл ресурсов "flight_output_user.resx", результирующий объект: "Release\practical_work.flight_output_user.resources".
+         Обрабатывается файл ресурсов "found_flights.resx", результирующий объект: "Release\practical_work.found_flights.resources".
+         Обрабатывается файл ресурсов "game_in_the_city.resx", результирующий объект: "Release\practical_work.game_in_the_city.resources".
+         Обрабатывается файл ресурсов "user_choice.resx", результирующий объект: "Release\practical_work.user_choice.resources".
+         Обрабатывается файл ресурсов "visitor_menu.resx", результирующий объект: "Release\practical_work.visitor_menu.resources".
+         Обрабатывается файл ресурсов "сhange_password.resx", результирующий объект: "Release\practical_work.сhange_password.resources".
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\57net\Desktop\practical_work\practical_work\Release\practical_work.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\practical_work.adding_flights.resources /ASSEMBLYRESOURCE:Release\practical_work.administrator_identification.resources /ASSEMBLYRESOURCE:Release\practical_work.admin_menu.resources /ASSEMBLYRESOURCE:Release\practical_work.delete_all_flights.resources /ASSEMBLYRESOURCE:Release\practical_work.delete_a_specific_flight.resources /ASSEMBLYRESOURCE:Release\practical_work.edit_specific_field.resources /ASSEMBLYRESOURCE:Release\practical_work.edit_type_selection.resources /ASSEMBLYRESOURCE:Release\practical_work.flight_input.resources /ASSEMBLYRESOURCE:Release\practical_work.flight_output.resources /ASSEMBLYRESOURCE:Release\practical_work.flight_output_on_request.resources /ASSEMBLYRESOURCE:Release\practical_work.flight_output_on_request_user.resources /ASSEMBLYRESOURCE:Release\practical_work.flight_output_user.resources /ASSEMBLYRESOURCE:Release\practical_work.found_flights.resources /ASSEMBLYRESOURCE:Release\practical_work.game_in_the_city.resources /ASSEMBLYRESOURCE:Release\practical_work.user_choice.resources /ASSEMBLYRESOURCE:Release\practical_work.visitor_menu.resources /ASSEMBLYRESOURCE:"Release\practical_work.сhange_password.resources" /MANIFEST /ManifestFile:"Release\practical_work.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\57net\Desktop\practical_work\practical_work\Release\practical_work.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Release\adding_flights.obj
+         Release\administrator_identification.obj
+         Release\admin_menu.obj
+         Release\delete_all_flights.obj
+         Release\delete_a_specific_flight.obj
+         Release\edit_specific_field.obj
+         Release\edit_type_selection.obj
+         Release\flight_input.obj
+         Release\flight_output.obj
+         Release\flight_output_on_request.obj
+         Release\flight_output_on_request_user.obj
+         Release\flight_output_user.obj
+         Release\found_flights.obj
+         Release\functions.obj
+         Release\game_in_the_city.obj
+         Release\user_choice.obj
+         Release\visitor_menu.obj
+         "Release\сhange_password.obj"
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         practical_work.vcxproj -> C:\Users\57net\Desktop\practical_work\practical_work\Release\practical_work.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\57net\Desktop\practical_work\practical_work\Release\practical_work.exe;#1" /manifest Release\practical_work.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Release\practical_work.unsuccessfulbuild" удаляется.
+         Обращение к "Release\practical_work.lastbuildstate".
+     1>Построение проекта "C:\Users\57net\Desktop\practical_work\practical_work\practical_work.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.09

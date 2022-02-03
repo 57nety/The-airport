@@ -1,0 +1,86 @@
+﻿Построение начато 16.07.2020 20:11:25.
+     1>Проект "C:\Users\57net\Desktop\practical_work\practical_work\practical_work.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\practical_work.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       GenerateTargetFrameworkMonikerAttribute:
+       Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt game_in_the_city.cpp visitor_menu.cpp /clr:nostdlib 
+         game_in_the_city.cpp
+     1>game_in_the_city.cpp(12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
+     1>game_in_the_city.cpp(32): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
+     1>game_in_the_city.cpp(55): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
+     1>game_in_the_city.cpp(86): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
+     1>game_in_the_city.cpp(94): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
+     1>game_in_the_city.cpp(104): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253): см. объявление "fscanf"
+         visitor_menu.cpp
+     1>visitor_menu.cpp(33): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
+     1>visitor_menu.cpp(43): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
+     1>visitor_menu.cpp(54): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253): см. объявление "fscanf"
+     1>visitor_menu.cpp(76): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
+     1>visitor_menu.cpp(86): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
+     1>visitor_menu.cpp(97): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253): см. объявление "fscanf"
+         Создание кода...
+         Для всех выходных данных обновления не требуется.
+       CoreResGen:
+         "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile adding_flights.resx,Debug\practical_work.adding_flights.resources administrator_identification.resx,Debug\practical_work.administrator_identification.resources admin_menu.resx,Debug\practical_work.admin_menu.resources delete_all_flights.resx,Debug\practical_work.delete_all_flights.resources delete_a_specific_flight.resx,Debug\practical_work.delete_a_specific_flight.resources edit_specific_field.resx,Debug\practical_work.edit_specific_field.resources edit_type_selection.resx,Debug\practical_work.edit_type_selection.resources flight_input.resx,Debug\practical_work.flight_input.resources flight_output.resx,Debug\practical_work.flight_output.resources flight_output_on_request.resx,Debug\practical_work.flight_output_on_request.resources flight_output_on_request_user.resx,Debug\practical_work.flight_output_on_request_user.resources flight_output_user.resx,Debug\practical_work.flight_output_user.resources found_flights.resx,Debug\practical_work.found_flights.resources game_in_the_city.resx,Debug\practical_work.game_in_the_city.resources user_choice.resx,Debug\practical_work.user_choice.resources visitor_menu.resx,Debug\practical_work.visitor_menu.resources "сhange_password.resx","Debug\practical_work.сhange_password.resources"
+         Обрабатывается файл ресурсов "adding_flights.resx", результирующий объект: "Debug\practical_work.adding_flights.resources".
+         Обрабатывается файл ресурсов "administrator_identification.resx", результирующий объект: "Debug\practical_work.administrator_identification.resources".
+         Обрабатывается файл ресурсов "admin_menu.resx", результирующий объект: "Debug\practical_work.admin_menu.resources".
+         Обрабатывается файл ресурсов "delete_all_flights.resx", результирующий объект: "Debug\practical_work.delete_all_flights.resources".
+         Обрабатывается файл ресурсов "delete_a_specific_flight.resx", результирующий объект: "Debug\practical_work.delete_a_specific_flight.resources".
+         Обрабатывается файл ресурсов "edit_specific_field.resx", результирующий объект: "Debug\practical_work.edit_specific_field.resources".
+         Обрабатывается файл ресурсов "edit_type_selection.resx", результирующий объект: "Debug\practical_work.edit_type_selection.resources".
+         Обрабатывается файл ресурсов "flight_input.resx", результирующий объект: "Debug\practical_work.flight_input.resources".
+         Обрабатывается файл ресурсов "flight_output.resx", результирующий объект: "Debug\practical_work.flight_output.resources".
+         Обрабатывается файл ресурсов "flight_output_on_request.resx", результирующий объект: "Debug\practical_work.flight_output_on_request.resources".
+         Обрабатывается файл ресурсов "flight_output_on_request_user.resx", результирующий объект: "Debug\practical_work.flight_output_on_request_user.resources".
+         Обрабатывается файл ресурсов "flight_output_user.resx", результирующий объект: "Debug\practical_work.flight_output_user.resources".
+         Обрабатывается файл ресурсов "found_flights.resx", результирующий объект: "Debug\practical_work.found_flights.resources".
+         Обрабатывается файл ресурсов "game_in_the_city.resx", результирующий объект: "Debug\practical_work.game_in_the_city.resources".
+         Обрабатывается файл ресурсов "user_choice.resx", результирующий объект: "Debug\practical_work.user_choice.resources".
+         Обрабатывается файл ресурсов "visitor_menu.resx", результирующий объект: "Debug\practical_work.visitor_menu.resources".
+         Обрабатывается файл ресурсов "сhange_password.resx", результирующий объект: "Debug\practical_work.сhange_password.resources".
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\57net\Desktop\practical_work\practical_work\Debug\practical_work.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\practical_work.adding_flights.resources /ASSEMBLYRESOURCE:Debug\practical_work.administrator_identification.resources /ASSEMBLYRESOURCE:Debug\practical_work.admin_menu.resources /ASSEMBLYRESOURCE:Debug\practical_work.delete_all_flights.resources /ASSEMBLYRESOURCE:Debug\practical_work.delete_a_specific_flight.resources /ASSEMBLYRESOURCE:Debug\practical_work.edit_specific_field.resources /ASSEMBLYRESOURCE:Debug\practical_work.edit_type_selection.resources /ASSEMBLYRESOURCE:Debug\practical_work.flight_input.resources /ASSEMBLYRESOURCE:Debug\practical_work.flight_output.resources /ASSEMBLYRESOURCE:Debug\practical_work.flight_output_on_request.resources /ASSEMBLYRESOURCE:Debug\practical_work.flight_output_on_request_user.resources /ASSEMBLYRESOURCE:Debug\practical_work.flight_output_user.resources /ASSEMBLYRESOURCE:Debug\practical_work.found_flights.resources /ASSEMBLYRESOURCE:Debug\practical_work.game_in_the_city.resources /ASSEMBLYRESOURCE:Debug\practical_work.user_choice.resources /ASSEMBLYRESOURCE:Debug\practical_work.visitor_menu.resources /ASSEMBLYRESOURCE:"Debug\practical_work.сhange_password.resources" /MANIFEST /ManifestFile:"Debug\practical_work.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\57net\Desktop\practical_work\practical_work\Debug\practical_work.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\adding_flights.obj
+         Debug\administrator_identification.obj
+         Debug\admin_menu.obj
+         Debug\delete_all_flights.obj
+         Debug\delete_a_specific_flight.obj
+         Debug\edit_specific_field.obj
+         Debug\edit_type_selection.obj
+         Debug\flight_input.obj
+         Debug\flight_output.obj
+         Debug\flight_output_on_request.obj
+         Debug\flight_output_on_request_user.obj
+         Debug\flight_output_user.obj
+         Debug\found_flights.obj
+         Debug\functions.obj
+         Debug\game_in_the_city.obj
+         Debug\user_choice.obj
+         Debug\visitor_menu.obj
+         "Debug\сhange_password.obj"
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         practical_work.vcxproj -> C:\Users\57net\Desktop\practical_work\practical_work\Debug\practical_work.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\57net\Desktop\practical_work\practical_work\Debug\practical_work.exe;#1" /manifest Debug\practical_work.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\practical_work.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\practical_work.lastbuildstate".
+     1>Построение проекта "C:\Users\57net\Desktop\practical_work\practical_work\practical_work.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:03.43
